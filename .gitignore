@@ -1,22 +1,16 @@
-# Virtual Environment
-myenv/
-venv/
-.venv/
-env/
-
-# Python caches
-__pycache__/
+# Python / Backend
+backend/myenv/
+backend/__pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Environment variables
 .env
 
-# Databases
-*.sqlite3
-*.db
+# Android / Frontend
+frontend/.gradle/
+frontend/build/
+frontend/local.properties
+frontend/.idea/
+*.iml
 
-# IDEs
-.vscode/
-.idea/
+# OS
+.DS_Store
+Thumbs.db
