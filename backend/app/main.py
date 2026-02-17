@@ -1,15 +1,14 @@
 from fastapi import FastAPI
+from app.routers import health, auth
 
-app = FastAPI(title="Attendify API")
+app = FastAPI(
+    title="Attendify Backend",
+    version="1.0.0"
+)
+
+app.include_router(health.router)
+app.include_router(auth.router)
 
 @app.get("/")
-async def root():
-    return {
-        "status": "Running",
-        "message": "Welcome to Attendify Backend",
-        "version": "1.0.0"
-    }
-
-@app.get("/health")
-async def health_check():
-    return {"status": "healthy"}
+def root():
+    return {"message": "Attendify Backend Running"}
