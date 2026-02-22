@@ -1,16 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.AttendifyMobile" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+    <!-- Dark Mode Theme: Professional Slate & Azure -->
+    <style name="Theme.AttendifyMobile" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#D6EAF8</item> <!-- Lighter Azure for Dark Mode -->
+        <item name="colorOnPrimary">#1A252F</item>
+        <item name="colorPrimaryContainer">#2C3E50</item>
+        <item name="colorOnPrimaryContainer">#D6EAF8</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#27AE60</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Surface and Background for Dark Mode -->
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>

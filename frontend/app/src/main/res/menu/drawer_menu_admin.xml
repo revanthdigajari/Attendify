@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navDashboard"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Dashboard" />
+    </group>
+
+    <item android:title="User Management">
+        <menu>
+            <item
+                android:id="@+id/navAddStudent"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Add Student" />
+            <item
+                android:id="@+id/navAddTeacher"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Add Teacher" />
+            <item
+                android:id="@+id/navManageUsers"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="Manage All Users" />
+        </menu>
+    </item>
+
+    <item android:title="Academic Structure">
+        <menu>
+            <item
+                android:id="@+id/navSections"
+                android:icon="@android:drawable/ic_menu_today"
+                android:title="Sections" />
+            <item
+                android:id="@+id/navSubjects"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Subjects" />
+            <item
+                android:id="@+id/navMapping"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Teacher Mapping" />
+        </menu>
+    </item>
+
+    <item android:title="Attendance &amp; Reports">
+        <menu>
+            <item
+                android:id="@+id/navManualEntry"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Manual Entry" />
+            <item
+                android:id="@+id/navResolveFlags"
+                android:icon="@android:drawable/ic_dialog_alert"
+                android:title="Resolve Flags" />
+            <item
+                android:id="@+id/navReports"
+                android:icon="@android:drawable/ic_menu_gallery"
+                android:title="Consolidated Reports" />
+        </menu>
+    </item>
+
+    <item android:title="System">
+        <menu>
+            <item
+                android:id="@+id/navLogout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

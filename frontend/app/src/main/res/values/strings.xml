@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">Attendify-Mobile</string>
+    <string name="app_name">Attendify Admin</string>
+
+    <string name="title_dashboard">Admin Overview</string>
+    <string name="btn_add_student">Enroll New Student</string>
+    <string name="btn_add_teacher">Register Faculty</string>
+    <string name="btn_view_reports">Attendance Reports</string>
+    <string name="btn_resolve_flags">Audit Pending Flags</string>
+
+    <string name="title_reports">Detailed Attendance Logs</string>
+    <string name="filter_hint">Filter by Student/Subject/Date</string>
+    <string name="status_present">Present</string>
+    <string name="status_absent">Absent</string>
+    <string name="status_on_duty">On Duty (OD)</string>
+
+    <string name="title_add_student">Student Onboarding</string>
+    <string name="btn_capture_face">Register Face Biometrics</string>
+    <string name="hint_roll_number">Roll Number (Unique ID)</string>
+
+    <string name="title_manual_entry">Manual Attendance Override</string>
+    <string name="mandatory_reason_hint">Reason (e.g., Sports/NCC) - Required</string>
+    <string name="full_name">Full Name</string>
+
+    <string name="filter_by">Filter By:</string>
+    <string name="no_records_found">No records found</string>
+    <string name="try_changing_filter">Try changing the filter criteria</string>
+
+    <string-array name="report_types">
+        <item>Student-wise</item>
+        <item>Subject-wise</item>
+        <item>Section-wise</item>
+        <item>Date-wise</item>
+    </string-array>
 </resources>
