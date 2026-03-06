@@ -56,6 +56,7 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
     implementation("com.google.android.material:material:1.11.0")
+    implementation("androidx.navigation:navigation-compose:2.7.7")
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
